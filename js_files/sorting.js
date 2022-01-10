@@ -1,5 +1,4 @@
 function swap(el1, el2) {
-    console.log('In swap()');
     
     let temp = el1.style.height;
     el1.style.height = el2.style.height;
