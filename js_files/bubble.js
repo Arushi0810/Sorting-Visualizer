@@ -5,7 +5,7 @@ async function bubble() {
       special[j].style.background="#267fc5";
       special[j+1].style.background="#267fc5";
           if(parseInt(special[j].style.height) > parseInt(special[j+1].style.height)){
-            await new Promise(resolve => setTimeout(() => {resolve(), delay(10000)}));
+            await new Promise(resolve => setTimeout(() => {resolve(), 10000}));
               swap(special[j],special[j+1]);
           }
           special[j].style.background="#11a3ae";
