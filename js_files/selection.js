@@ -22,7 +22,7 @@ async function selection() {
         special[i].style.background = "#708d81";
     }    
     
-    special[special.length].style.background = "#708d81"; 
+    special[special.length-1].style.background = "#708d81"; 
   }
   document.getElementsByClassName("selection sort")[0].addEventListener("click", async function (){
     await selection();
