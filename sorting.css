@@ -1,0 +1,32 @@
+body {
+  background-color: #343a40;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+.bars {
+  display: inline-flex;
+  margin: 2px;
+  width: 5px;
+  background-color: #708d81;
+}
+.btn {
+  margin: 10px;
+}
+
+.new {
+  border-color: #11a3ae;
+  color: #11a3ae;
+}
+.sort {
+  border-color: #267fc5;
+  color: #267fc5;
+}
+.sort-btn {
+  margin-left: auto;
+}
+#bar-cont {
+  text-align: center;
+  transform: rotate(180deg);
+}
