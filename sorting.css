@@ -2,26 +2,26 @@ body {
   background-color: #343a40;
 }
 h1 {
-  color: white;
+  color: #ffcda3;
   text-align: center;
 }
 .bars {
   display: inline-flex;
   margin: 2px;
   width: 5px;
-  background-color: #708d81;
+  background-color: #74c7b8;
 }
 .btn {
   margin: 10px;
 }
 
 .new {
-  border-color: #11a3ae;
-  color: #11a3ae;
+  border-color: #ef4f4f;
+  color: #ef4f4f;
 }
 .sort {
-  border-color: #267fc5;
-  color: #267fc5;
+  border-color: #ef4f4f;
+  color: #ef4f4f;
 }
 .sort-btn {
   margin-left: auto;
@@ -29,4 +29,11 @@ h1 {
 #bar-cont {
   text-align: center;
   transform: rotate(180deg);
+}
+span {
+  color: #ef4f4f;
+  align-items: center;
+}
+input[type="range"] {
+  margin: 10px;
 }
